@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "generate-new-certificate",
+            "type": "shell",
+            "problemMatcher": "$eslint-stylish",
+            "command": "node generate-new-certificate",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "args": [
+                "abcSEP)00",        // CA Password
+                "appserver",        // New Certificate name
+                "appserver",        // New Certificate Server Name
+                "192.168.0.1",      // New Certificate Server IP
+                "appAUG!01"         // New Certificate Password
+            ]
+        }
+    ]
+}
