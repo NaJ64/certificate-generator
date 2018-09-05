@@ -1,4 +1,5 @@
-# Certificate Generator (Certificate Authority using OpenSSL and Node.js)
+# Certificate Generator 
+A Certificate Authority using OpenSSL and Node.js
 
 ## Obtaining OpenSSL:
 
